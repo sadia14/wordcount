@@ -1,0 +1,10 @@
+<h1>This is home page</h1>
+
+<a href="{% url 'about' %}">About </a>
+
+<form action="{% url 'count' %}">
+    <textarea name="fulltext" rows="8" cols="80"></textarea>
+    <br/>
+    <input type="submit" name="" value="count"/>
+    <br/>
+</form>
